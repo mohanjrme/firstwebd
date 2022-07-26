@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(
+        90deg, 
+        #F1EAEA 50%,
+        #6C3542 0%,
+     #6C3542 100%);
+}
+.header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 3% 10%;
+    align-items: center;
+}
+.navbrand {
+    margin-right: auto;
+    color: black;
+    font-size: 1.5rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbrand span {
+    color: gray;
+}
+.nav-list a {
+    list-style: none;
+    color: #fff;
+    text-decoration: none;
+    
+}
+
+.nav-list li {
+    display: inline-block;
+    font-family: "montserrat";
+    font-weight: 100;
+    font-size: 1rem;
+    padding: 0 20px;
+}
+.nav-list a:hover {
+    color: gray;
+}
+
+/* title */
+#title {
+    padding: 4% 10%;   
+}
+.container {
+width: 50%;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: 2.1rem;
+    line-height: 1.5;
+}
+p {
+
+   line-height: 1.5;
+   font-family: "poppins";
+}
+.img1{
+    position: relative;
+    left: 440;
+    top: -220;
+    z-index: 1;
+}
+.img2{
+    position: relative;
+    left: 460;
+    top: -610;
+}
+
+ /* button  */
+ .button1 {
+    padding: 10px;
+    font-family: "montserrat";
+    font-weight: 100;
+    font-size: 1rem;
+    cursor: pointer;
+    color: #fff;
+    background-color: rgba(128, 128, 128, .5);
+    border: none;
+    margin-left: 20px;
+ }
+ .button1:hover {
+    background-color: rgba(128, 148, 128, .5);
+ }
+.button {
+    --bg: #000;
+    --hover-bg: #fff;
+    --hover-text: #000;
+    color: #fff;
+    border: 1px solid var(--bg);
+    padding: 0.8em 2em;
+    background: var(--bg);
+    transition: 0.2s;
+    margin-top: 30px;
+    cursor: pointer;
+    font-weight: 400;
+  }
+  
+  .button:hover {
+    color: var(--hover-text);
+    transform: translate(-0.25rem,-0.25rem);
+    background: var(--hover-bg);
+    box-shadow: 0.25rem 0.25rem var(--bg);
+  }
+  
+  .button:active {
+    transform: translate(0);
+  }
